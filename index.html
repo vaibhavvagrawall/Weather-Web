@@ -21,17 +21,17 @@
         <section class="weather-info" style="display: none;">
             <div class="location-date-container">
                 <div class="location">
-                    <span class="material-symbols-outlined">location_on</span>
-                    <h4 class="city-txt">Kathmandu</h4>
+                    <span class="material-symbols-outlined"></span>
+                    <h3 class="city-txt"></h3>
                 </div>
-                <h5 class="current-date-txt">Fri, 08 Nov</h5>
-                <h5 class="current-time-txt" id="current-time"></h5>
+                <h4 class="current-date-txt regular-txt"></h4>
+                <h4 class="current-time-txt regular-txt" id="current-time"></h4>
             </div>
             <div class="weather-summary-container">
                 <img src="images/weather/clouds.svg" class="weather-summary-img">
                 <div class="weather-summary-info">
-                    <h1 class="temp-txt">29 °C</h1>
-                    <h3 class="condition-txt regular-txt">Clouds</h3>
+                    <h3 class="temp-txt"></h3>
+                    <h4 class="condition-txt regular-txt"></h4>
                 </div>
             </div>
 
@@ -40,15 +40,23 @@
                     <span class="material-symbols-outlined">water_drop</span>
                     <div class="condition-info">
                         <h5 class="regular-txt">Humidity</h5>
-                        <h5 class="value-txt" id="humidity-value-txt">55%</h5>
+                        <h5 class="value-txt" id="humidity-value-txt"></h5>
                     </div>
                 </div>
 
                 <div class="condition-item">
-                    <span class="material-symbols-outlined">thermostat</span>
+                    <span class="material-symbols-outlined">air</span>
+                     <div class="condition-info">
+                         <h5 class="regular-txt">Pressure</h5>
+                         <h5 class="value-txt" id="pressure-value-txt"></h5>
+                     </div>
+                </div>
+
+                <div class="condition-item">
+                    <span class="material-symbols-outlined">thermometer_add</span>
                      <div class="condition-info">
                          <h5 class="regular-txt">Max Temp</h5>
-                         <h5 class="value-txt" id="max-temp-txt">- °C</h5>
+                         <h5 class="value-txt" id="max-temp-txt"></h5>
                      </div>
                 </div>
 
@@ -56,23 +64,31 @@
                     <span class="material-symbols-outlined">wb_sunny</span>
                     <div class="condition-info">
                         <h5 class="regular-txt">Sunrise</h5>
-                        <h5 class="value-txt" id="sunrise-txt">--:--</h5>
+                        <h5 class="value-txt" id="sunrise-txt"></h5>
                     </div>
                 </div>
                 
                 <div class="condition-item">
-                    <span class="material-symbols-outlined">air</span>
+                    <span class="material-symbols-outlined">airwave</span>
                     <div class="condition-info">
                         <h5 class="regular-txt">Wind Speed</h5>
-                        <h5 class="value-txt" id="wind-value-txt">2 M/s</h5>
+                        <h5 class="value-txt" id="wind-value-txt"></h5>
+                    </div>
+                </div>
+
+                <div class="condition-item">
+                    <span class="material-symbols-outlined">visibility</span>
+                    <div class="condition-info">
+                        <h5 class="regular-txt">Visibility</h5>
+                        <h5 class="value-txt" id="visibility-value-txt"></h5>
                     </div>
                 </div>
                     
                 <div class="condition-item">
-                    <span class="material-symbols-outlined">thermostat_auto</span>
+                    <span class="material-symbols-outlined">thermometer_minus</span>
                     <div class="condition-info">
                         <h5 class="regular-txt">Min Temp</h5>
-                        <h5 class="value-txt" id="min-temp-txt">- °C</h5>
+                        <h5 class="value-txt" id="min-temp-txt"></h5>
                         </div>
                 </div>
                     
@@ -87,7 +103,7 @@
 
             <div class="forecast-items-container">
                 <div class="forecast-item">
-                    <h5 class="forecast-item-date regular-txt">05 Aug</h5>
+                    <h5 class="forecast-item-date regular-txt"></h5>
                     <img src="images/weather/thunderstorm.svg" class="forecast-item-img">
                     <h5 class="forecast-item-temp">29 °C</h5>
                 </div>
@@ -109,7 +125,7 @@
                 <h4 class="regular-txt">The city you are looking for cannot be found.</h4>
             </div>
         </section>
-    </main>  
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
