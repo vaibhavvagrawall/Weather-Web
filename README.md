@@ -2,16 +2,6 @@
 
 This is a weather application built using HTML, CSS, and JavaScript. The app allows users to view the current weather conditions for any city, along with additional information such as temperature, humidity, wind speed, and more. The current time is also displayed alongside the weather details.
 
-### Key Sections of the README:
-
-1. **Features**: Brief description of what the project is about and its core features.
-2. **Technologies Used**: List of technologies (HTML, CSS, JS) and any libraries or APIs used.
-4. **Usage**: Instructions on how to interact with the app and its features.
-5. **Project Structure**: Overview of how the project is organized.
-6. **API Integration**: Instructions for obtaining and setting up the weather API key.
-
-This markdown should give anyone who views your repository a clear understanding of the project, its functionality, and how to use it.
-
 ## Features
 
 - **City Search**: Users can search for the weather of any city.
@@ -35,6 +25,7 @@ This markdown should give anyone who views your repository a clear understanding
 4. **Forecast**: The forecast section shows upcoming weather data.
 
 ## Project Structure
+
 - **images/**: Contains weather icons used in the app.
 - **index.html**: The main HTML file for the application.
 - **style.css**: Contains the styles and layout for the weather app.
