@@ -49,3 +49,7 @@ The weather data is fetched from a weather API. You'll need to replace the `API_
 3. Update the API key in the `script.js` file.
 const API_KEY = 'your-api-key';
 
+## Demo
+
+A live demo of the project is available below:
+- **Live Demo**: [Link](https://weather-web-vaibhav-agrawals-projects-de317429.vercel.app/)
